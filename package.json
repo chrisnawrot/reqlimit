@@ -1,7 +1,28 @@
 {
   "name": "reqlimit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Limits the number of requests per second.",
   "author": "Chris Nawrot",
-  "dependencies": {}
+  "dependencies": {},
+  "main": "reqlimit.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisnawrot/reqlimit.git"
+  },
+  "keywords": [
+    "request",
+    "limit",
+    "denial"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisnawrot/reqlimit/issues"
+  },
+  "homepage": "https://github.com/chrisnawrot/reqlimit#readme"
 }
