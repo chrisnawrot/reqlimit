@@ -14,10 +14,12 @@ requests per second, and marks an entry as "blocked" if the calculation exceeds
 maxRps. If an entry is blocked, this function stops its calculations.
 
 The returned object contains the following properties:
+<code>
 	count	// The number of requests made by this entry
 	last	// A timestamp of the last request made (in milliseconds since epoch)
 	rps		// Current request/second
 	block	// Boolean indicating if the entry exceeded maxRps
+</code>
 
 ## reqlimit.release(timeout:number)
 Removes entries that are older than timeout (in seconds).
